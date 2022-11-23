@@ -17,6 +17,7 @@ public class Runner {
         absolut.addVodka(3);
         Aist aist = context.getBean("aist", Aist.class);
         aist.addBike(3);
+        System.out.println(stock.getListProduct());
         Petrovich petrovich = context.getBean(Petrovich.class);
         petrovich.getProductsFromStock();
         Reshar reshar = context.getBean(Reshar.class);
